@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/build": true,
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include"
+    ],
+    "editor.formatOnSave": true
+}
