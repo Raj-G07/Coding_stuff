@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int binarySearch(const vector<int> &arr, int target);
+int binarySearch(const vector<int> &arr,int left, int right, int target);
 
 #endif // BINARY_SEARCH_H
 
