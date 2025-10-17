@@ -13,3 +13,4 @@ void mergeSort(vector<int> &arr, int left, int right);
 // Time Complexity: 
 // Best, Average, and Worst Case: O(nlog⁡n) 
 // Space Complexity: O(n) 
+// Stable : Yes
