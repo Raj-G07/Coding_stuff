@@ -1,0 +1,1 @@
+// The Interval Scheduling problem is a Greedy Algorithm problem where the goal is to select the maximum number of non-overlapping intervals from a given set of intervals.

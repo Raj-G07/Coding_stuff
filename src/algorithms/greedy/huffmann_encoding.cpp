@@ -1,0 +1,1 @@
+// Huffman Encoding is a Greedy Algorithm used for lossless data compression. It reduces the total size of data by assigning variable-length binary codes to input characters based on their frequencies. Frequently occurring characters get shorter codes, while less frequent ones get longer codes. 

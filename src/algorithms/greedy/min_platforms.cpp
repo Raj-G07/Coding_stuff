@@ -1,0 +1,1 @@
+// The Minimum Platforms Problem is a classic Greedy Algorithm problem where the goal is to determine the minimum number of platforms required at a railway station so that no train is delayed due to a lack of platforms. 

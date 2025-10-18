@@ -1,0 +1,1 @@
+// The Fractional Knapsack Problem is a variation of the classic Knapsack Problem where you can take fractions of items rather than entire items. This makes the problem solvable using a Greedy Algorithm. 

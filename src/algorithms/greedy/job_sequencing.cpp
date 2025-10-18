@@ -1,0 +1,1 @@
+// The Job Sequencing Problem is a classic Greedy Algorithm problem where you aim to maximize the profit by scheduling jobs within a given deadline.

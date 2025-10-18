@@ -1,0 +1,1 @@
+// Kruskal's Algorithm is a Greedy Algorithm to find the MST. It sorts all edges by weight and incrementally adds the smallest edge to the tree, ensuring no cycles.

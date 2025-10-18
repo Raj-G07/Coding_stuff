@@ -1,0 +1,1 @@
+// Prim's Algorithm is another Greedy Algorithm for MST. It grows the MST one vertex at a time, starting from an arbitrary vertex, by adding the smallest edge that connects a vertex in the MST to a vertex outside the MST.
