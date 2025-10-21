@@ -1,7 +1,6 @@
 // Exponentiation by Squaring (For powers) 
 
-#include <iostream>
-using namespace std;
+#include "algorithms/fast_exponentiation/exponentiation_by_squaring.h"
 
 long long exp_by_squaring(long long x, long long n) {
     long long result = 1;

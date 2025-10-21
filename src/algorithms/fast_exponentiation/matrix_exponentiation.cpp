@@ -1,11 +1,6 @@
-// Matrix exponentiation is a powerful technique to compute powers of a matrix efficiently. It is widely used in problems that involve recurrence relations, such as Fibonacci sequence calculations, linear recurrence relations, and solving systems of linear equations. 
-
-
-#include <iostream> 
-#include <vector> 
-using namespace std; 
-// Define a type for matrices 
-typedef vector<vector<long long>> Matrix; 
+// Matrix exponentiation is a powerful technique to compute powers of a matrix efficiently. It is widely used in problems that involve recurrence relations, such as Fibonacci sequence calculations, linear recurrence relations, and solving systems of linear equations.
+ 
+#include "algorithms/fast_exponentiation/matrix_exponentiation.h"
 
 Matrix multiply(const Matrix &A, const Matrix &B, int MOD) {
     int n = A.size(); 
