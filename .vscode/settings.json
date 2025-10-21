@@ -1,10 +1,12 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/build": true,
-    },
-    "C_Cpp.default.includePath": [
-        "${workspaceFolder}/include"
-    ],
-    "editor.formatOnSave": true
+  "files.exclude": {
+    "**/.git": true,
+    "**/build": true
+  },
+  "C_Cpp.default.includePath": ["${workspaceFolder}/include"],
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.ejs": "html",
+    "iostream": "cpp"
+  }
 }
