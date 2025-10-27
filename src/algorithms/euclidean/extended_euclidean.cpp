@@ -1,7 +1,18 @@
 // The Extended Euclidean Algorithm not only finds the GCD of two numbers but 
 // also computes coefficients x and y such that: 
 // ax+by=GCD(a,b) 
+// Modular Inverse (Full Concept)
 
+/*We already know that for prime modulus 
+m:𝑎−1≡𝑎𝑚−2(mod𝑚)
+
+But what if m is not prime?
+Then we use the Extended Euclidean Algorithm.
+
+🧠 Equation:𝑎 × 𝑥 + 𝑚 × 𝑦 =  gcd⁡(𝑎,𝑚)
+If gcd(a, m) = 1,
+then x is the modular inverse of a mod m.
+*/
 #include<iostream>
 using namespace std;
 
