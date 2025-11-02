@@ -8,6 +8,21 @@ struct Node{
     Node(int val) : data(val), left(nullptr) , right(nullptr){}
 };
 
+int findMinimum(Node* root){
+    if(!root) return NULL;
+    while(root && root->left){
+        root= root->left;
+    }
+    return root->data;
+}
+
+int findMaximum(Node* root){
+    if(!root) return NULL;
+    while(root && root->right){
+        root = root->right;
+    }
+    return root->data;
+}
 
 Node* insert(Node* root, int key){
     if(!root) return new Node(key);
