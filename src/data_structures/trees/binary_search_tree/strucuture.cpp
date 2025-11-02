@@ -26,6 +26,31 @@ bool search(Node* root, int key){
     else 
         search(root->right,key); 
 }
+Node* findSuccessor(Node* root){
+    while(root && root->left){
+        root= root->left;
+    }
+    return root;
+}
+
+Node* deleteN(Node* root,int key){
+    if(!root) return nullptr;
+    if(root->data>key){
+        root->left = deleteN(root->left,key);
+    }else if(root->data<key){
+        root->right = deleteN(root->right,key);
+    }
+    if(!root->left){
+        return root->right;
+    }
+    if(!root->right){
+        return root->left;
+    }
+    Node* successor = findSuccessor(root->right);
+    root->data= successor->data;
+    root->right = deleteN(root->right,successor->data);
+    return root;
+}
 
 void inorder(Node* root){
     if(!root) return ;
